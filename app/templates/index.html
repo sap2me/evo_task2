@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+
+{% block body %}
+<form action="/form" method="POST">
+  <input placeholder="First Name" required="" type="text" name="first_name" />
+  <input placeholder="Last Name" required="" type="text" name="last_name" />
+  <input placeholder="Email" type="email" />
+  <button type="submit">Say Hi!</button>
+</form>
+{% endblock %}

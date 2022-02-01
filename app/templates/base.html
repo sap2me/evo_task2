@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="ISO-8859-1">
+  <title>EVO</title>
+  <link rel="stylesheet" href="{{ url_for('static', path='styles.css') }}">
+</head>
+
+<body>
+  <div class="contact-us">
+    {% block body %}
+    {% endblock %}
+  </div>
+</body>
+<footer>
+  <a href="/">Index</a>
+  <a href="/users">Users</a>
+</footer>
+</html>
